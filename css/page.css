@@ -1,0 +1,138 @@
+.clr{
+    clear: both;
+}
+.tz-page-wrap{
+    padding: 0px 60px;
+    background: rgb(255,255,255);
+}
+.resume_fluid_Content{
+    padding: 50px 0px ;
+
+}
+.resume_fluid_Content h5{
+    color: #282828;
+    font-family: 'RalewayRegular';
+    font-weight: normal;
+}
+.resume_fluid_Content p{
+
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'OpenSansRegular';
+    color: #6a6a6a;
+    margin: 0;
+    padding: 0;
+
+}
+/*===================
+Page CONTENT
+======================*/
+.tzpage{
+    padding: 65px 0px 80px 0px;
+}
+.tzpage h1.page_title{
+    margin: 0 0 48px 0;
+    padding: 0;
+    font-family: 'OpenSansBold';
+    font-size: 48px;
+    line-height: 36px;
+    color: #282828;
+    text-transform: uppercase;
+}
+/*contact form*/
+h3.form-title{
+    font-size: 24px;
+    line-height: 18px;
+    font-family: 'OpenSansBold';
+    color: #282828;
+    padding: 42px 0 25px;
+    margin: 0;
+}
+.contact-info{
+    color: #464646;
+    font-family: 'OpenSansRegular';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 32px;
+    padding: 0;
+    display: block;
+}
+.contact-address{
+    color: #7C7E7E;
+
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 24px;
+}
+.wpcf7-form p{
+    color: #8A8C8C;
+    font-family: 'Opensansregular';
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 0 10px;
+}
+
+.control-group-email,
+.control-group-subject{
+    margin-top: 10px !important;
+}
+
+.wpcf7-form input.wpcf7-text {
+    border: 2px solid #6A6A6A;
+    border-radius: 0 0 0 0;
+    color: #8A8C8C;
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    padding: 10px !important;
+    width: 80%;
+
+    height: auto;
+
+}
+.wpcf7-form textarea.wpcf7-textarea {
+    border: 2px solid #6A6A6A;
+    border-radius: 0 0 0 0;
+    color: #8A8C8C;
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+}
+body .form-actions{
+    background-color: rgba(255,255,255,0);
+    border-top: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0;
+}
+.wpcf7-form input.wpcf7-submit{
+    background-color: #FFFFFF;
+    border: 2px solid #282828;
+    border-radius: 5px;
+    box-shadow: none !important;
+    color: #282828 !important;
+    cursor: pointer;
+    font-family: 'OpenSansBold';
+    margin-top: 10px;
+    line-height: 33px;
+    padding: 8px 18px !important;
+    text-align: center;
+    text-shadow: none !important;
+    font-size: 13px !important;
+    float: right;
+    margin-right: 68px;
+
+}
+
+body div.wpcf7-response-output{
+    margin: 1em 5em 1em 0;
+}
+body div.wpcf7 img.ajax-loader{
+    margin-left: 0;
+    margin-top: 19px;
+}
+body span.wpcf7-not-valid-tip{
+    width: 73%;
+}

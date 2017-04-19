@@ -1,0 +1,277 @@
+#tz_Flexslider{
+    overflow:hidden;
+    position:relative;
+}
+#carousel{
+    bottom:-75px !important;
+}
+
+.bg-slide-overlay{
+    opacity:0.3;
+}
+.tz-slideshow {
+    z-index: 10;
+    position: relative;
+    display: block;
+}
+.tz-slideshow .box {
+    background: none;
+}
+.tz-slideshow .container-fluid {
+    padding: 0;
+}
+.tz-slideshow .container-fluid #wrapper_zoomslider {
+    overflow: hidden;
+}
+.tz-slideshow .container-fluid #wrapper_zoomslider .zoomslider-overlay {
+    position: absolute;
+    background: rgba(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+.tz-slideshow .container-fluid #wrapper_zoomslider div.zs-caption-bg,
+.tz-slideshow .container-fluid #wrapper_zoomslider div.zs-caption-bg2 {
+    bottom: 250px;
+    left: 80px;
+    width: 70%;
+    z-index: 20;
+}
+.tz-slideshow .container-fluid #wrapper_zoomslider div.zs-caption-bg .caption-title,
+.tz-slideshow .container-fluid #wrapper_zoomslider div.zs-caption-bg2 .caption-title {
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+
+}
+.tz-slideshow .container-fluid #wrapper_zoomslider div.zs-caption-bg .caption-title a,
+.tz-slideshow .container-fluid #wrapper_zoomslider div.zs-caption-bg2 .caption-title a {
+    color: #fff;
+}
+.tz-slideshow .container-fluid #wrapper_zoomslider div.zs-caption-bg .caption-description,
+.tz-slideshow .container-fluid #wrapper_zoomslider div.zs-caption-bg2 .caption-description {
+    font-size: 18px;
+    color: #fff;
+}
+.tz-slideshow .container-fluid #zoom-slider {
+    overflow: hidden;
+}
+.tz-slideshow .container-fluid #zoom-slider img {
+    min-width: 110%;
+}
+.tz-slideshow .container-fluid .zoom_thumb_slider {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    height: 155px;
+}
+.tz-slideshow .container-fluid .zoom_thumb_slider #thumbs {
+    display: block;
+}
+.tz-slideshow .container-fluid .zoom_thumb_slider #thumbs span {
+    margin: 0;
+    float: left;
+}
+.tz-slideshow .container-fluid .zoom_thumb_slider #thumbs span img {
+    border: none;
+    height: 200px;
+    position: relative;
+}
+.tz-slideshow .container-fluid .zoom_thumb_slider #thumbs span img:hover {
+    opacity: 1;
+    margin-top: -25px;
+}
+.tz-slideshow .container-fluid .zoom-description {
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+}
+.tz-slideshow .container-fluid .zoom-description .caption-title {
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #fff;
+}
+.tz-slideshow .container-fluid .zoom-description .caption-description {
+    font-size: 18px;
+    color: #fff;
+}
+.tz-slideshow .tz-inner {
+    background: none;
+}
+.tz-slideshow .container-fluid .zoom_thumb_slider #thumbs span img,
+.image-hover,
+.author_information,
+h4.author_name,
+.author_social a,
+.tz_new_overlay,
+.ib-inner,
+.ib-main img,
+#carousel ul.slides li img,
+#carousel ul.slides li:hover img,
+#mycarousel img,
+#mycarousel img:hover,
+.item-overlay {
+    -moz-transition: all 200ms linear 0s;
+    -webkit-transition: all 200ms linear 0s;
+    -o-transition: all 200ms linear 0s;
+}
+
+.flexslider {
+    width: 100%;
+}
+#carousel .flex-viewport {
+    padding-top: 30px;
+}
+#carousel .flex-direction-nav {
+    display: none;
+}
+#carousel ul.slides li img {
+    position: relative;
+    opacity: 0.8;
+}
+#carousel ul.slides li img:hover {
+    cursor: pointer;
+}
+#carousel ul.slides li:hover img {
+    margin-top: -20px;
+    opacity: 1;
+}
+#tz_Flexslider {
+    width: 100%;
+}
+#tz_Flexslider .flex-viewport {
+    width: 100%;
+}
+
+.box .tz_flex_slider {
+    overflow: hidden;
+}
+.box .flexslider {
+    border: none;
+    background: none;
+    box-shadow: none;
+    margin: 0;
+    border-radius: 0;
+}
+.box .flexslider .flex-direction-nav a.flex-prev {
+    left: 20px;
+}
+.box .flexslider .flex-direction-nav a.flex-next {
+    right: 20px;
+}
+.box .flexslider .info_slide {
+    position: relative;
+}
+.box .flexslider .info_slide .tz_title_slide a {
+    color: #fff;
+    font-size: 48px;
+    text-transform: capitalize;
+    line-height: 60px;
+}
+.box .flexslider .info_slide .tz_title_slide a:hover{
+    text-decoration: none;
+}
+.box .flexslider .info_slide .bg-slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    z-index: 10;
+}
+.box .flexslider .sl-description {
+    position: absolute;
+    bottom: 250px;
+    left: 80px;
+    z-index: 20;
+    width: 60%;
+}
+.box .flexslider .sl-description p {
+    color: #fff;
+}
+.box #carousel {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+}
+.box .thumbsHolderWrapper {
+    top: auto !important;
+    bottom: 0;
+}
+.box .controls div.input-prepend {
+    width: 100%;
+}
+.box .controls div.input-prepend input {
+    width: 96%;
+    padding: 0 2%;
+    border-color: #ddd8ce;
+    color: #989898;
+    font-size: 18px;
+}
+
+.flexslider .slides > li {
+    padding-left: 0;
+}
+
+@media (max-width: 979px) {
+
+    .box div.flexslider .sl-description {
+        width: 80%;
+        bottom: 160px;
+    }
+    .box .flexslider .info_slide .tz_title_slide a {
+        font-size: 50px;
+    }
+    .box .flexslider .sl-description p {
+        line-height: 30px;
+    }
+
+    section.tz-slideshow {
+        margin-top: 0 !important;
+    }
+}
+@media (max-width: 768px) {
+
+    .box .flexslider .info_slide .tz_title_slide a {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .box div.flexslider .sl-description {
+        left: 30px;
+    }
+    .box .flexslider .sl-description p {
+        font-size: 14px;
+    }
+    .flexslider .slides .info_slide img {
+        min-height: 100%;
+        max-width: none;
+        width: auto;
+    }
+    .box #carousel {
+        display: none;
+    }
+    .box div.flexslider .sl-description {
+        bottom: 35px;
+    }
+    section.tz-slideshow {
+        margin-top: 0 !important;
+    }
+
+    .flexslider .slides .info_slide img {
+        width: 100%;
+    }
+
+    #tz_Flexslider,
+    #slider,
+    #tz_Flexslider #slider .slides .info_slide,
+    .flexslider .slides .info_slide img {
+        height: auto !important;
+        min-height: 200px;
+    }
+
+}

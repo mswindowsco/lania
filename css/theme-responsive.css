@@ -1,0 +1,21 @@
+.navbar-inner .btn-navbar {
+    display: none !important;
+}
+.navbar-inner .icon-bar {
+    background-color: #282828;
+}
+.navbar-inner .icon-bar {
+    border-radius: 1px;
+    display: block;
+    height: 3px;
+    width: 22px;
+}
+.navbar-inner .btn-navbar{
+   padding: 7px !important;
+}
+
+
+
+
+
+

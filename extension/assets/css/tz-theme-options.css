@@ -1,0 +1,365 @@
+body #setting_plazart_404_page_content .format-setting .format-setting-inner{
+    width: 100% !important;
+}
+body #setting_plazart_copyright .format-setting .format-setting-inner{
+    width: 100% !important;
+}
+body .format-setting .format-setting-inner{
+    width: 50% !important;
+}
+body #plazart_copyright_toolbar3{
+    display: none;
+}
+body #plazart_404_page_content_toolbar3{
+    display: none;
+}
+/*end custom textarea*/
+
+body #setting_plazart_TzFontDefault{
+    display: none;
+}
+body #setting_plazart_TzFontSquirrel{
+    display: none;
+}
+body #setting_plazart_TzFontFami{
+    display: none;
+}
+body #setting_plazart_TzFontFaminy{
+    display: none;
+}
+
+/*header font*/
+body #setting_plazart_TzFontHeadDefault{
+     display: none;
+}
+body #setting_plazart_TzFontHeadSquirrel{
+    display: none;
+}
+body #setting_plazart_TzFontHeadGoodurl{
+    display: none;
+}
+body #setting_plazart_TzFontFaminyHead{
+    display: none;
+}
+
+
+body #setting_plazart_TzFontMenuDefault{
+    display: none;
+}
+body #setting_plazart_TzFontMenuSquirrel{
+    display: none;
+}
+body #setting_plazart_TzFontMenuGoodurl{
+    display: none;
+}
+body #setting_plazart_TzFontFaminyMenu{
+    display: none;
+}
+
+
+/*custom font*/
+body #setting_plazart_TzFontCustomDefault{
+    display: none;
+}
+body #setting_plazart_TzFontCustomSquirrel{
+    display: none;
+}
+body #setting_plazart_TzFontCustomGoodurl{
+    display: none;
+}
+body #setting_plazart_TzFontFaminyCustom{
+    display: none;
+}
+body #setting_plazart_TZBackgroundColor{
+    display: none;
+}
+
+/* css background option*/
+.background_pattern {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    padding: 2px;
+}
+body #setting_plazart_background_pattern .format-setting .format-setting-inner{
+    width: 100% !important;
+}
+
+/*==========================
+CSS HOME PAGE SETTINGS
+===========================*/
+body #section_TZModulePage .format-setting-inner{
+    width: 100% !important;
+}
+body #section_TZModuleQuote .format-setting-inner{
+    width: 100% !important;
+}
+
+/*style option*/
+body #tab_TzFontMenu,
+body #tab_TzFontCustom,
+body #tab_TZBackground,
+body #tab_TZBody,
+body #tab_TzFontHeader{
+    background: #ffffff;
+    border: 0;
+    display: none;
+
+}
+/*Home page settins*/
+
+body #tab_TZModuleAbout,
+body #tab_TZModuleServices,
+body #tab_TZModuleCompany,
+body #tab_TZModuleEvent,
+body #tab_TZModulePortfolio,
+body #tab_TZModuleBlog,
+body #tab_TZModulePage,
+body #tab_TZModulePage,
+body #tab_TZModuleQuote{
+    background: #ffffff;
+    border: 0;
+    display: none;
+}
+/*Slide settins*/
+
+body #tab_TZNivoSetting,
+body #tab_TZZoomslider,
+body #tab_TZFlexslider,
+body #tab_TZRevslider{
+    background: #ffffff;
+    border: 0;
+    display: none;
+}
+body #setting_plazart_TZNivoCols,
+body #setting_plazart_TZNivorows,
+body #setting_plazart_TZNivoBackground,
+body #setting_plazart_TZNivoText,
+body #setting_plazart_TZNivoOpacity{
+    display: none;
+}
+/*Portfolio settins*/
+body #tab_TZPortfolioFooter,
+body #tab_TZPageHeader{
+    background: #ffffff;
+    border: 0;
+    display: none;
+}
+/*Timeline settins*/
+body #tab_TZTimelineHeader,
+body #tab_TZTimelineFooter{
+    background: #ffffff;
+    border: 0;
+    display: none;
+}
+/*blog settins*/
+body #tab_TZBlogHeader,
+body #tab_TZBlogFooter{
+    background: #ffffff;
+    border: 0;
+    display: none;
+}
+/*archive settins*/
+body #tab_TZArchivePageHeader,
+body #tab_TZArchivePageFooter{
+    background: #ffffff;
+    border: 0;
+    display: none;
+}
+
+/*style option*/
+body #page-ot_theme_options{
+    width: 75%;
+}
+body .wrap.settings-wrap .ui-tabs-nav{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+}
+body #option-tree-settings-api .ui-tabs{
+    background: url("../images/ot-menu-bg.png") repeat-y scroll 0 0 #ffffff !important;
+}
+
+body .wrap.settings-wrap .ui-tabs-nav li.ui-state-active{
+
+    border: none;
+    background:  #6D6D6D !important;
+    margin-right: -0px;
+    border-radius: 0;
+
+
+}
+body .wrap.settings-wrap .ui-tabs-nav li.ui-state-active a{
+    color: white;
+
+}
+
+
+body .wrap.settings-wrap .ui-tabs-nav li{
+    border-bottom: 1px solid #D8D8D8;
+    border-top: 1px solid #FFFFFF;
+    color: #797979;
+    display: block;
+    font: bold 12px/18px sans-serif;
+    padding: 7px 10px;
+    text-decoration: none;
+
+}
+body .wrap.settings-wrap .ui-tabs-nav li a{
+    padding: 1px 5px 1px 12px;
+}
+body #option-tree-header{
+    border-radius: 2px 2px 0 0;
+}
+body .format-setting-label {
+
+    border-bottom: 0;
+    margin: 0 0 3px;
+    padding: 5px 0 1px;
+    width: 100%;
+}
+body .format-setting-wrap{
+    border-bottom: 1px solid #E7E7E7;
+    padding-bottom: 22px;
+}
+body input.option-tree-ui-upload-input, input.option-tree-ui-input{
+    padding: 6px;
+}
+body .format-settings{
+    padding: 0 0 20px;
+}
+/*position  about*/
+body #setting_plazart_TZAboutPosition .format-setting-wrap{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+body #setting_tz_my_layout .option-tree-ui-radio-images{
+    display: none;
+}
+body #setting_tz_my_layout .option-tree-ui-radio-images:first-child{
+    display: block;
+}
+body #setting_tz_my_layout .format-setting-inner{
+    height: 410px;
+}
+body #setting_tz_my_layout .option-tree-ui-radio-images{
+    position: absolute;
+}
+body #setting_tz_my_layout .option-tree-ui-radio-images img{
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+/*position services*/
+body #setting_plazart_TZServicesPosition .format-setting-wrap{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+body #setting_tz_my_layout_services .option-tree-ui-radio-images{
+    display: none;
+}
+body #setting_tz_my_layout_services .option-tree-ui-radio-images:first-child{
+    display: block;
+}
+body #setting_tz_my_layout_services .format-setting-inner{
+    height: 410px;
+}
+body #setting_tz_my_layout_services .option-tree-ui-radio-images{
+    position: absolute;
+}
+body #setting_tz_my_layout_services .option-tree-ui-radio-images img{
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+/*position Company*/
+body #setting_plazart_TZCompanyPosition .format-setting-wrap{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+body #setting_tz_my_layout_Company .option-tree-ui-radio-images{
+    display: none;
+}
+body #setting_tz_my_layout_Company .option-tree-ui-radio-images:first-child{
+    display: block;
+}
+body #setting_tz_my_layout_Company .format-setting-inner{
+    height: 410px;
+}
+body #setting_tz_my_layout_Company .option-tree-ui-radio-images{
+    position: absolute;
+}
+body #setting_tz_my_layout_Company .option-tree-ui-radio-images img{
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+/*position Event*/
+body #setting_plazart_TZEventPosition .format-setting-wrap{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+body #setting_tz_my_layout_event .option-tree-ui-radio-images{
+    display: none;
+}
+body #setting_tz_my_layout_event .option-tree-ui-radio-images:first-child{
+    display: block;
+}
+body #setting_tz_my_layout_event .format-setting-inner{
+    height: 410px;
+}
+body #setting_tz_my_layout_event .option-tree-ui-radio-images{
+    position: absolute;
+}
+body #setting_tz_my_layout_event .option-tree-ui-radio-images img{
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/*position portfolio*/
+body #setting_plazart_TZPortfolioPosition .format-setting-wrap{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+body #setting_tz_my_layout_portfolio .option-tree-ui-radio-images{
+    display: none;
+}
+body #setting_tz_my_layout_portfolio .option-tree-ui-radio-images:first-child{
+    display: block;
+}
+body #setting_tz_my_layout_portfolio .format-setting-inner{
+    height: 410px;
+}
+body #setting_tz_my_layout_portfolio .option-tree-ui-radio-images{
+    position: absolute;
+}
+body #setting_tz_my_layout_portfolio .option-tree-ui-radio-images img{
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/*position blog*/
+body #setting_plazart_TZPositionBlog .format-setting-wrap{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+body #setting_tz_my_layout_blog .option-tree-ui-radio-images{
+    display: none;
+}
+body #setting_tz_my_layout_blog .option-tree-ui-radio-images:first-child{
+    display: block;
+}
+body #setting_tz_my_layout_blog .format-setting-inner{
+    height: 410px;
+}
+body #setting_tz_my_layout_blog .option-tree-ui-radio-images{
+    position: absolute;
+}
+body #setting_tz_my_layout_blog .option-tree-ui-radio-images img{
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+}

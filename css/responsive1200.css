@@ -1,0 +1,52 @@
+/*======================================
+Large desktop
+=======================================*/
+@media (min-width: 1200px) {
+
+    .small-show{
+        display:none;
+    }
+
+    
+
+    /*Typography*/
+    h1{
+        font-family: 'OpenSansBold';
+        font-size: 62px;
+        color: #515050;
+    }
+    h2{
+        font-family: 'OpenSansBold';
+        font-size: 52px;
+        color: #34495e;
+    }
+    h3{
+        font-family: 'OpenSansBold';
+        font-size: 40px;
+        color: #34495e;
+    }
+    h4{
+        font-family: 'OpenSansBold';
+        font-size: 29px;
+        color: #34495e;
+    }
+    h5{
+        font-family: 'OpenSansBold';
+        font-size: 24px;
+        color: #34495e;
+    }
+    h6{
+        font-family: 'OpenSansRegular';
+        font-size: 24px;
+        color: #34495e;
+    }
+
+    p{
+        font-family: 'OpenSansRegular';
+        font-size: 14px;
+        line-height: 24px;
+        color: #5c5c5c;
+    }
+}
+/* END Large desktop */
+

@@ -1,0 +1,309 @@
+.portfolio-single{
+    padding: 0px 60px;
+    background: rgb(255,255,255);
+}
+.portfolio-single h1{
+    padding: 66px 0px 42px 0px;
+    margin: 0;
+    font-size: 48px;
+    line-height: 36px;
+    color: #282828;
+    font-family: 'RalewayBold';
+    font-weight: normal;
+    text-transform: uppercase;
+}
+/*single image*/
+.portfolio-single-image{
+    float: left;
+    max-width: 706px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 40px 0px 0px;
+    padding: 12px 0 0;
+    max-height: 450px;
+}
+div.flexslider{
+    margin: 0;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    position: static;
+}
+.tz_portfolio_image_gallery{
+    float: left;
+    width: 706px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 40px 0px 0px;
+    padding: 12px 0 0;
+}
+.portfolio-single-image img{
+    width: 100%;
+}
+/*end single image*/
+/*single info*/
+.portfolio-single-info{
+    float: left;
+}
+.portfolio-single-info ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.portfolio-single-info ul li:first-child{
+    margin-top: 0;
+}
+.portfolio-single-info ul li{
+    margin-top: 12px;
+    padding: 0;
+}
+.portfolio-single-info ul li span{
+    display: block;
+    font-family: 'RalewayBold';
+    font-size: 18px;
+    line-height: 36px;
+    color: #6a6a6a;
+}
+
+.portfolio-single-info ul li a{
+    display: block;
+    font-family: 'OpenSansItalic';
+    font-size: 14px;
+    line-height: 24px;
+    color: #6a6a6a;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+/*end single info*/
+
+/*single description*/
+.single-description{
+    padding: 40px 0px 30px 0px;
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 24px;
+    color: #5c5c5c;
+    margin: 0;
+}
+.single-description p{
+    padding: 0px;
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 24px;
+    color: #5c5c5c;
+    margin: 0;
+}
+
+/*end single-description*/
+
+/*social*/
+.share-it{
+    margin: 0;
+    padding: 0px 0px 24px 0px;
+    position: relative;
+}
+.TwitterButton,
+.FacebookButton,
+.PinterestButton,
+.GooglePlusOneButton{
+    width: 95px;
+    float: left;
+}
+/*end social*/
+
+.related-project{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.related-project h3.related-title{
+    padding: 0;
+    margin: 0;
+    font-family: 'RalewayBold';
+    font-size: 24px;
+    color: #282828;
+   float: left;
+}
+hr.relate-hr{
+    border-color: #e9e9e9;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px ;
+
+    height: 0;
+    margin: 0 0 0 17px;
+    padding-top: 20px;
+}
+.related-content{
+    margin-top: 32px;
+}
+.related-item{
+    position: relative;
+    z-index: 10;
+    -moz-box-sizing: border-box;
+    max-width: 100%;
+    min-width: 300px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.showbiz{
+    position: relative;
+}
+.showbiz .overflowholder {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+.showbiz .overflowholder ul {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100000px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.showbiz .overflowholder ul li {
+    float: left !important;
+    margin-right: 40px;
+    padding: 0;
+    position: relative;
+    list-style: none outside none;
+}
+.related{
+    margin-bottom: 45px;
+    border-bottom: 2px solid #e9e9e9;
+    padding-bottom: 17px;
+}
+
+.related-image{
+    position: relative;
+    overflow: hidden;
+    height: 233px;
+}
+.related-image img{
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+.related-image .tziconsearch{
+    padding: 8px 10px;
+    border: 1px solid rgb(225,229,231);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 15px;
+    position: absolute;
+
+    top: 50%;
+    margin-top: -17px;
+    left: -100%;
+    z-index: 99;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.related-image .tziconLink{
+    padding: 8px 10px;
+    border: 1px solid rgb(225,229,231);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    right: -100%;
+    margin-right: -51px;
+
+    z-index: 99;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.tzportfolio-bk{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.related-image:hover a{
+    text-decoration: none;
+}
+.related:hover{
+    border-bottom: 2px solid rgb(40,40,40);
+    cursor: pointer;
+}
+.related:hover .tzportfolio-bk{
+    display: block;
+}
+.related:hover .tziconsearch{
+    left: 50%;
+    margin-left: -51px;
+}
+.related:hover .tziconLink{
+
+    right: 50%;
+    margin-right: -51px;
+
+
+}
+.related:hover .related-image img{
+    transform:  scale(1.1);
+    -moz-transform:  scale(1.1);
+    -webkit-transform: scale(1.1);
+
+}
+.related-info h3{
+    font-size: 18px;
+    font-family: 'RalewayBold';
+    color: #6a6a6a;
+    line-height: 36px;
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+    text-align: center;
+}
+.related-info h3 a{
+    font-size: 18px;
+    font-family: 'RalewayBold';
+    color: #6a6a6a;
+    line-height: 36px;
+}
+.related-tags{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.related-tags a:first-child{
+    margin-left: 0;
+}
+.related-tags a{
+    font-size: 12px;
+    color: #6a6a6a;
+    font-family: 'OpenSansItalic';
+    line-height: 25px;
+    display: inline-block;
+    margin-left: 5px;
+}

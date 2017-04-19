@@ -1,0 +1,75 @@
+.page-template-template-home-page-php div.container-fluid{
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0px;
+    box-shadow: none;
+}
+body div.container-fluid{
+    max-width: 1200px !important;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0px auto;
+    box-shadow: none;
+}
+body .tzbreadcrumb div.container-fluid,
+body .ourclients div.container-fluid,
+body .resume div.container-fluid,
+body .tzfooter div.container-fluid{
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0px;
+    box-shadow: none;
+}
+
+div.full-width{
+    max-width: 1200px !important;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0px auto;
+
+}
+
+.bk-fullwidth{
+    background: #F5F5F5;
+
+}
+.bk-resume{
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-bottom: 1px solid #E9E9E9;
+    border-top: 1px solid #E9E9E9;
+}
+.bk-resume .resume_fluid{
+    background: none;
+    border-bottom: 0;
+    border-top: 0;
+}
+.bk-white-full{
+    background: #ffffff;
+    border-bottom: 2px solid #E9E9E9;
+    border-top: 1px solid #E9E9E9;
+}
+.bk-white-full .tzcompany_full{
+    border-bottom: 0;
+    border-top: 0;
+}
+.bk-white-full .clientcontent{
+    border-bottom: 0;
+    border-top: 0;
+}
+.bk-tzbreadcrumb{
+    background: #222222;
+    border-bottom: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.bk-tzbreadcrumb .tzbread{
+    border: 0;
+}
+.bk-footer{
+    background: #222222;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.bk-footer .tzcopyright{
+    border-top: 0;
+}

@@ -1,0 +1,210 @@
+/*
+ * jQuery Nivo Slider v3.2
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* The Nivo Slider styles */
+.nivoSlider {
+    position:relative;
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    max-width: none;
+}
+.nivo-main-image {
+    display: block !important;
+    position: relative !important;
+    width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    border:0;
+    padding:0;
+    margin:0;
+    z-index:6;
+    display:none;
+    background:white;
+    filter:alpha(opacity=0);
+    opacity:0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+    display:block;
+    position:absolute;
+    z-index:5;
+    height:100%;
+    top:0;
+}
+.nivo-box {
+    display:block;
+    position:absolute;
+    z-index:5;
+    overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+
+.background-posi{
+    background: #000000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    top: 0;
+    opacity: 0.3;
+    -moz-opacity: 0.3;
+    filter:alpha(opacity=3);
+}
+.nivo-caption {
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    z-index:8;
+    padding: 0px 10px;
+    overflow: hidden;
+    display: none;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
+.tz-nivo-title{
+    padding: 5px 10px 0px 10px;
+    position: relative;
+    font-family: 'OpenSansRegular';
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    z-index: 99;
+    margin: 0;
+}
+.tz-nivo-title a{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    font-weight: bold;
+    font-size: 16px;
+    z-index: 99;
+}
+p.tz-nivo-description{
+    position: relative;
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    z-index: 99;
+}
+
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+    position:absolute;
+    top:45%;
+    z-index:9;
+    cursor:pointer;
+}
+.nivo-prevNav {
+    left:0px;
+}
+.nivo-nextNav {
+    right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+    text-align:center;
+    padding: 15px 0;
+}
+.nivo-controlNav a {
+    cursor:pointer;
+}
+.nivo-controlNav a.active {
+    font-weight:bold;
+}
+
+.tzslider-wrapper {
+    width: 100%;
+    background: white;
+
+
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+    clear:both;
+}
+
+.tz-theme-default .nivoSlider {
+    background: url("../images/nivo/loading.gif") no-repeat scroll 50% 50% #FFFFFF;
+    position: relative;
+}
+.tz-theme-default .nivoSlider img {
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.tz-theme-default .nivoSlider a {
+    border: 0 none;
+    display: block;
+}
+.tz-theme-default .nivo-controlNav {
+    padding: 0;
+    text-align: center;
+    background: white;
+}
+.tz-theme-default .nivo-controlNav a {
+    background: url("../images/nivo/bullets.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    display: inline-block;
+    height: 22px;
+    margin: 0 2px;
+    text-indent: -9999px;
+    width: 22px;
+}
+.tz-theme-default .nivo-controlNav a.active {
+    background-position: 0 -22px;
+}
+.tz-theme-default .nivo-directionNav a {
+    background: url("../images/nivo/arrows.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    display: block;
+    height: 30px;
+    opacity: 0;
+    text-indent: -9999px;
+    transition: all 200ms ease-in-out 0s;
+    width: 30px;
+}
+.tz-theme-default:hover .nivo-directionNav a {
+    opacity: 1;
+}
+.tz-theme-default a.nivo-nextNav {
+    background-position: -30px 0;
+    right: 15px;
+}
+.tz-theme-default a.nivo-prevNav {
+    left: 15px;
+}

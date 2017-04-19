@@ -1,0 +1,275 @@
+
+/*======================================
+Portrait tablet to landscape and desktop
+=======================================*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+.small-hide {
+    display:none;
+}
+
+#phoneo {
+        display:none;
+    }
+
+    #blaymm {
+    width:100% !important;
+}
+
+
+    div.tzblog-sidebar #searchform label.icon-search{
+        display: none;
+    }
+    body{
+        padding: 0;
+    }
+    /*blog*/
+    .tzuser-author-img img{
+        display: none;
+    }
+    /* CSS HEADER*/
+    /*menu*/
+    #tzheader div#plazart-menu .nav li a{
+        padding: 10px 40px;
+    }
+    .tzsocial{
+        display: none !important;
+    }
+    .row-fluid div.tzmenu{
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+        margin: 0 !important;
+        min-height: 0;
+        padding: 0 !important;
+        position: absolute;
+        right: 0;
+        top: 92px;
+        width: 100%;
+        z-index: 9999;
+    }
+    .navbar-inner .btn-navbar{
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+        border: medium none;
+        box-shadow: none;
+        display: block !important;
+        position: absolute;
+        right: 20px;
+        top: -63px;
+    }
+    #plazart-menu{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    div#plazart-menu ul.nav{
+        width: 100%;
+        float: left;
+        background: white;
+        border-top: 1px solid #E9E9E9;
+        padding-top: 10px;
+    }
+    div#plazart-menu ul.nav li{
+        float: none;
+
+        padding-right: 0;
+    }
+    div#plazart-menu ul.nav li:hover{
+        background: #E9E9E9;
+    }
+    div#plazart-menu ul.nav li a{
+        font-size: 14px;
+        padding-left: 38px;
+    }
+
+    /*css tzabout*/
+    div.tzaboutcontent{
+        padding: 0 60px 44px;
+    }
+    .employeeitem{
+        max-width: 100%;
+    }
+    .employee .employeeitem .employeeimg{
+        margin: auto;
+    }
+
+    div.tzaboutcontent h1{
+        line-height: 40px;
+    }
+    .tzaboutweb_fluid {
+        padding: 38px 60px !important;
+    }
+    div.employee .employeeitem h6{
+        text-align: center;
+    }
+    div.employee .employeeitem span{
+        text-align: center;
+    }
+
+    /*service*/
+
+    /*portfolio*/
+    div.content-portfolio{
+        padding: 58px 60px 74px;
+    }
+    .resume_fluid .resume_fluid_Content .tzbutton{
+        margin-top: 20px;
+    }
+    /*module page*/
+    div.tzaboutweb_fluid p.resume_info{
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        padding: 0 0 25px;
+    }
+    div.tzaboutweb_fluid a.tzbutton{
+        float: none;
+        margin-top: 0;
+        padding: 6px 12px;
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    div.pageForm {
+        float: left;
+        padding-left: 0;
+        padding-top: 11px;
+    }
+    p.newletter-info{
+        padding-bottom: 18px;
+    }
+    /*archive*/
+    div.blog-content-item .tz-blog-images{
+        max-width: 100%;
+    }
+    /*css ourclient*/
+    div.clientcontent{
+        padding: 65px 50px 82px;
+    }
+    div.ourclientscontent .itemclient img{
+        height: 100px;
+        max-width: 170px;
+    }
+    /*company*/
+    .tzcompany .employee_company{
+        padding: 18px 50px 78px;
+    }
+
+
+    .tzcompany .tzcompanycontent {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .tzcompany #showbiz_left_1,
+    .tzcompany #showbiz_right_1{
+        display: none;
+    }
+
+
+    /*css footer*/
+    div.footerSocial ul li a.socialname{
+        padding-left: 0;
+    }
+    div.tzcopyright p{
+        width: 90%;
+    }
+    /* menu*/
+    body #plazart-menu ul li ul{
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #E1E5E7;
+        list-style: none outside none;
+        margin: 0;
+        padding: 27px 0 28px;
+        position: relative;
+        top: 0;
+        width: auto;
+        z-index: 99999;
+    }
+    body #plazart-menu ul.nav li ul li a{
+        border-top: 0;
+    }
+    body div#plazart-menu ul.nav li:hover{
+        background: none;
+    }
+    /*lve 3*/
+    body #plazart-menu ul li ul.sub-menu li ul{
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #E1E5E7;
+        left: 0;
+        list-style: none outside none;
+        margin: 0;
+        padding: 27px 0 28px;
+        position: relative;
+        top: 0;
+        width: auto;
+        z-index: 99999;
+    }
+
+    /*==========================portfolio=========================*/
+    div.resume_fluid a.tzbutton{
+        float: left;
+    }
+    .resume_fluid_Content h5{
+        font-size: 30px;
+    }
+    h3.title-portfolio{
+        padding: 63px 60px 35px;
+    }
+    div#filter a{
+        margin: 10px 12px 0px 0px;
+    }
+    div#filter a:first-child{
+        margin: 10px 12px 0px 0px;
+    }
+    div#tz_append {
+        margin-left: 40px;
+        margin-top: 12px;
+        text-align: center;
+    }
+    div#tz_append a,
+    div#tz_append span{
+        font-size: 13px !important;
+        padding: 11px 13px !important;
+    }
+
+    /*header*/
+    h3.resume_title{
+        line-height: 40px !important;
+    }
+    div.one_half{
+        width: 100%;
+    }
+    div.one_third{
+        width: 100%;
+    }
+    div.two_third{
+        width: 100%;
+    }
+    div.one_fourth{
+        width: 100%;
+    }
+    div.two_fourth{
+        width: 100%;
+    }
+    div.three_fourth{
+        width: 100%;
+    }
+
+    /*slide*/
+    body section#tzslideshow div.div-home-slide .tp-caption.tz_header_slide ,
+    body section#tzslideshow div.div-home-slide .tp-caption.tz_header_slide2
+    {
+        font-size: 29px !important;
+    }
+    p{
+        font-family: 'OpenSansRegular';
+        font-size: 14px;
+        line-height: 24px;
+        color: #5c5c5c;
+    }
+
+}
+/* END Portrait tablet to landscape and desktop */
+
+
+
+
+.cta-bar li {
+    display:block; display:block !important;
+}

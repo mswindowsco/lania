@@ -1,0 +1,547 @@
+
+/*====================================
+Landscape phones and down
+ =====================================*/
+@media (max-width: 480px) {
+
+    #phoneo {
+        display:none;
+    }
+
+    #blaymm {
+    width:100% !important;
+}
+
+    .index-video {
+        display: none;
+        width: 1px;
+        height: 1px;
+    }
+
+    .titleonpage {
+        padding:5px 0;
+        line-height: 10px;
+    }
+
+    .video-title
+    {
+        font-size: 12px;
+    }
+
+.small-hide {
+    display:none;
+}
+
+
+    h1{
+        color: #515050;
+        font-family: 'OpenSansBold';
+
+        font-size: 42px;
+    }
+    h2{
+        color: #515050;
+        font-family: 'OpenSansBold';
+        font-size: 35px;
+    }
+    h3{
+        color: #515050;
+        font-family: 'OpenSansBold';
+        font-size: 25px;
+    }
+    h4{
+        color: #515050;
+        font-family: 'OpenSansBold';
+        font-size: 19px;
+    }
+    h5{
+        color: #515050;
+        font-family: 'OpenSansBold';
+        font-size: 14px;
+    }
+    h6{
+        color: #515050;
+        font-family: 'OpenSansRegular';
+        font-size: 14px;
+    }
+    body{
+        padding: 0;
+    }
+    /*slide setting*/
+    .div-home-slide{
+        display: none;
+    }
+    /*menu*/
+    #tzheader div#plazart-menu .nav li a{
+        padding: 10px 40px;
+    }
+    /*about us*/
+    div.tzaboutcontent{
+        padding: 0 20px;
+    }
+
+    div.tzinfo{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    div.tznewscontent{
+        padding: 48px 20px;
+    }
+    div.newcontent .contenth3{
+        font-size: 20px;
+        line-height: 30px;
+        padding-right: 0;
+    }
+    /*service*/
+    div.clientcontent{
+        padding: 50px 20px 82px;
+    }
+    div.clientcontent div.tz-server-detail:first-child{
+        margin-top: 0;
+    }
+    div.clientcontent div.tz-server-detail{
+        margin-top: 52px;
+    }
+    /*css portoflio*/
+
+    .title-portfolio {
+
+        padding: 30px 40px 10px !important;
+
+    }
+    #filter {
+        padding: 0 40px !important;
+    }
+    div#box_portofliocontent{
+        min-width: 100px;
+    }
+
+
+    .tz-portfolio #tz_append a {
+        background-color: #FFFFFF;
+        border: 2px solid #282828;
+        border-radius: 8px;
+        box-shadow: none !important;
+        color: #282828 !important;
+        cursor: pointer;
+        font-family: 'OpenSansRegular';
+        font-size: 13px !important;
+        line-height: 30px;
+        padding: 10px 20px !important;
+        text-align: center;
+        text-shadow: none !important;
+        text-transform: uppercase;
+    }
+
+    div.content-portfolio{
+        padding: 32px 20px 35px !important;
+    }
+    div.boxprotfolio{
+        margin-top: 37px;
+    }
+    div.tzboxcontent h3{
+        font-size: 15px !important;
+    }
+    /*company*/
+    div.tzcompanycontent h3{
+        padding: 35px 0 0px;
+    }
+    .tzcompany .employee_company{
+        padding: 15px 20px 35px;
+    }
+    .tzcompany .tzcompanycontent {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .tzcompany #showbiz_left_1,
+    .tzcompany #showbiz_right_1{
+        display: none;
+    }
+    /*css quote*/
+    .quotecontent div.tzinfo{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    div.tzinfo p.p-quote{
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .tzinfo p.p-quote span.tzauthor{
+        margin-left: 45px;
+    }
+    /*event*/
+    p.ul_event button{
+        padding: 2px 5px;
+    }
+    p.ul_event button span{
+        font-size: 20px;
+    }
+    button.btn-tzevent{
+        padding: 12px 8px !important;
+    }
+    p.ul_event button a{
+        font-size: 15px;
+    }
+    /*css blog*/
+    body .blog-content-item .tz-blog-images{
+        max-width: 100%;
+    }
+    div.blogcontent{
+        padding: 65px 20px 75px;
+    }
+    ul.tab-content-blog li div.module-blog-img{
+        max-width: 100%;
+        height: auto;
+    }
+    ul.tab-content-blog li .module-blog-img img{
+
+        min-width: 100%;
+    }
+
+    ul.tab-content-blog li img{
+
+        padding-right: 24px;
+    }
+    div.tab-blog-info h3{
+        font-size: 13px;
+    }
+    ul#tzmyTab a{
+        font-size: 15px;
+    }
+    div.tab-blog-info span{
+        font-size: 13px;
+    }
+    .tzuser-author-img img{
+        display: none;
+    }
+
+    div.tzblog-content {
+        padding: 30px 0 80px;
+    }
+    div.tzblog-content h1{
+        margin: 0 0 20px;
+    }
+    /*module page*/
+    div.tzaboutweb_fluid{
+        text-align: left;
+    }
+    .tzaboutweb_fluid .one_fourth p{
+        text-align: center;
+    }
+    div.tzaboutweb_fluid h3.about_title{
+        line-height: 24px;
+        font-size: 18px !important;
+        padding: 22px 0 15px;
+        text-align: center;
+    }
+    div.tzaboutweb_fluid p.resume_info{
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        padding: 0 0 25px;
+    }
+    div.tzaboutweb_fluid a.tzbutton{
+        float: none;
+        margin-top: 0;
+        padding: 6px 12px;
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    /*css tzabout*/
+    div.tzaboutcontent h1{
+        line-height: 24px;
+        font-size: 18px !important;
+        padding: 38px 0 15px;
+    }
+    div.tzaboutcontent p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    div.employee .employeeitem .employeeimg{
+        max-width: 100%;
+    }
+    div.aboutcontent_full div.employee{
+        padding: 22px 20px 22px;
+    }
+    .tzaboutweb_fluid {
+        padding: 5px 20px !important;
+    }
+    .resume_fluid{
+        padding: 0 18px !important;
+    }
+    div.employee .employeeitem .employeeimg img{
+        min-height: 50px;
+        min-width: 100%;
+    }
+
+    div.pageForm {
+        float: left;
+        padding-left: 0;
+        padding-top: 11px;
+    }
+    p.newletter-info{
+        padding-bottom: 18px;
+    }
+    /*clients*/
+    .ourclients{
+        display: none;
+    }
+    /*.ourclients div.tzourclients h3{*/
+        /*padding: 45px 0 18px;*/
+        /*font-size: 35px !important;*/
+    /*}*/
+
+    /*div.ourclientscontent{*/
+        /*padding: 10px 20px 60px;*/
+    /*}*/
+    /*div.ourclientscontent .itemclient2{*/
+        /*margin-top: 40px;*/
+    /*}*/
+    /*div.ourclientscontent .itemclient2 img{*/
+        /*max-width: 70%;*/
+    /*}*/
+
+    /*bread*/
+    div.tzbread{
+        padding: 18px 20px;
+
+    }
+    div.tzbreadsocial{
+        text-align: center;
+    }
+    .tzbread-attr{
+        display: none !important;
+    }
+    div.tzbreadsocial ul li a{
+        margin-left: 0;
+        margin-right: 16px;
+        margin-top: 5px;
+    }
+    div.tzbreadsocial{
+        margin-top: 0 !important;
+    }
+    /*css footer*/
+
+
+    div.footer-fluid {
+
+        padding: 32px 20px 65px;
+    }
+    div.footerSocial ul li a.socialname{
+        padding-left: 0;
+    }
+
+    .tzfooter .span2:first-child{
+        margin-top: 0;
+    }
+    .tzfooter .span2{
+        margin-top: 20px;
+    }
+    .tzfooter .span4:first-child{
+        margin-top: 0px;
+    }
+    .tzfooter .span4{
+        margin-top: 20px;
+    }
+
+    /*copy right*/
+    div.tzcopyright{
+        padding: 27px 20px;
+    }
+    div.tzcopyright p{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /*page*/
+    div.tzpage{
+        padding: 30px 0 10px;
+    }
+    div.tzpage h3.form-title{
+        padding: 18px 0 8px;
+    }
+    div.tzpage h1.page_title{
+        font-size: 30px;
+        margin: 0 0 30px;
+    }
+    .tz-page-wrap {
+        padding: 0 20px !important;
+    }
+    /*sidebar*/
+    .tzblog-sidebar {
+        padding: 56px 0 80px !important;
+    }
+    /*shortcode*/
+    .one_third{
+        width: 100% !important;
+    }
+    /* menu*/
+    body #plazart-menu ul li ul{
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #E1E5E7;
+        list-style: none outside none;
+        margin: 0;
+        padding: 27px 0 28px;
+        position: relative;
+        top: 0;
+        width: auto;
+        z-index: 99999;
+    }
+    body #plazart-menu ul.nav li ul li a{
+        border-top: 0;
+    }
+    body div#plazart-menu ul.nav li:hover{
+        background: none;
+    }
+    /*lve 3*/
+    body #plazart-menu ul li ul.sub-menu li ul{
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #E1E5E7;
+        left: 0;
+        list-style: none outside none;
+        margin: 0;
+        padding: 27px 0 28px;
+        position: relative;
+        top: 0;
+        width: auto;
+        z-index: 99999;
+    }
+    /*tempalte blog*/
+    div.tzblog-content h1.tzarchive2{
+       padding: 0 0 2px;
+        font-size: 30px !important;
+    }
+    div.blog-content-date h3.archive-date{
+        font-size: 20px;
+    }
+    div.blog-content-item .tz-blog-images{
+        margin: 10px 30px 0 0;
+    }
+    div.blog-content-item .blog-title{
+        font-size: 20px;
+        margin: 0;
+    }
+    .blog-content-item div.tz-quote p{
+        font-size: 14px;
+    }
+    .blog-content-item .tz-quote span.tzauthor{
+        font-size: 15px;
+    }
+    div.tz-link h3 a{
+        font-size: 20px;
+    }
+    /*template portfolio*/
+    div.resume_fluid a.tzbutton{
+        float: left;
+    }
+    div.resume_fluid_Content{
+        padding: 18px 0 48px;
+    }
+    .resume_fluid_Content h5{
+        font-size: 21px !important;
+    }
+    .resume_fluid a.tzbutton{
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        font-size: 14px;
+        padding: 6px 13px;
+    }
+    h3.title-portfolio{
+        font-size: 30px;
+    }
+    /*single blog*/
+    .single-author-img{
+        display: none;
+    }
+    div.single-author-info{
+        width: 100%;
+    }
+    /*single portfolio*/
+
+    div.portfolio-single h1 {
+        font-size: 35px !important;
+        padding: 30px 0 20px ;
+    }
+    /*search*/
+    div.tzblog-content h1{
+        font-size: 35px !important;
+    }
+    div.TzPagination .wp-pagenavi a{
+        margin: 15px 0 0 10px;
+    }
+    div.content-portfolio h3 span.tz_title{
+        line-height: 24px;
+    }
+
+    /*header*/
+    h3.resume_title{
+        line-height: 30px !important;
+        font-size: 18px;
+    }
+
+    div.one_half{
+        width: 100%;
+    }
+    div.one_third{
+        width: 100%;
+    }
+    div.two_third{
+        width: 100%;
+    }
+    div.one_fourth{
+        width: 100%;
+    }
+    div.two_fourth{
+        width: 100%;
+    }
+    div.three_fourth{
+        width: 100%;
+    }
+
+    /*side bar*/
+    div.tzblog-sidebar aside h3.module-title span{
+        font-size: 20px;
+    }
+    .tzblog-sidebar #searchform label.icon-search{
+        display: none;
+    }
+    .tz-blog-main .tz-blog-wrap {
+        padding: 0 20px;
+    }
+
+    p{
+        font-family: 'OpenSansRegular';
+        font-size: 13px;
+        line-height: 24px;
+        color: #5c5c5c;
+    }
+
+    .page-template-template-home-page-php div.tzaboutcontent p{
+        padding-bottom: 30px;
+    }
+
+    div.tz-h3event{
+        font-size: 22px;
+    }
+    div.tzinfo p.p-quote{
+        padding: 43px 0 0 12px;
+    }
+    div.tzinfo p.p-quote span.tzauthor{
+        display: block;
+        padding: 0 6px 10px 71px;
+    }
+    div.resume_fluid_Content{
+        padding: 18px 5px !important;
+    }
+    .resume_fluid .resume_fluid_Content .tzbutton{
+        margin-top: 10px !important;
+    }
+
+}
+/* end Landscape phones and down */
+
+
+
+

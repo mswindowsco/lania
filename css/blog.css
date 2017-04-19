@@ -1,0 +1,482 @@
+.tz-blog-wrap{
+    padding: 0px 60px;
+    background: rgb(255,255,255);
+}
+/*===================
+BLOG CONTENT
+======================*/
+.tzblog-content{
+    padding: 64px 0px 80px 0px;
+}
+.tzblog-content h1{
+    margin: 0 0 56px 0;
+    padding: 0;
+    font-family: 'OpenSansBold';
+    font-size: 48px;
+    line-height: 36px;
+    color: #282828;
+    text-transform: uppercase;
+}
+/*css template archive*/
+.tzblog-content h1.tzarchive2{
+    color: #282828;
+    font-family: 'OpenSansBold';
+    font-size: 48px;
+    line-height: 36px;
+    margin: 0 0 0px;
+    padding: 0  0 32px;
+    text-transform: uppercase;
+    border-bottom: 0;
+}
+.blog-content-date:first-child{
+    border-top: 0;
+    padding-top: 0;
+}
+.blog-content-date{
+    padding-bottom: 17px;
+    padding-top: 27px;
+    border-top: 1px solid rgb(233,233,233);
+}
+.blog-content-date h3.archive-date{
+    color: #282828;
+    font-size: 36px;
+    line-height: 36px;
+    font-family: 'OpenSansBold';
+    text-transform: uppercase;
+}
+/*CSS QUOTE*/
+.blog-content-item .blog-info-quote {
+    font-family: 'OpenSansItalic';
+    margin: 0;
+    padding: 0;
+
+}
+.blog-content-item .blog-info-quote span {
+    font-family: 'OpenSansItalic';
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    line-height: 30px;
+    color: #5c5c5c;
+}
+.tz-quote{
+    margin-top: 20px;
+}
+div.tz-quote p {
+    background: url("../images/icon-quote1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #5c5c5c;
+    font-family: 'OpenSansItalic';
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0px 0 0 42px;
+    position: relative;
+    text-align: left;
+}
+
+body .tz-quote span.tzauthor {
+    background: url("../images/icon-quote2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #282828;
+    font-family: 'OpenSansBold';
+    font-size: 18px;
+    line-height: 36px;
+    padding: 0px 6px 11px 40px;
+    margin: 0 0 0 7px;
+}
+/*END QUOTE*/
+
+/*CSS LINK*/
+.tz-link h3{
+    margin: 0;
+    padding: 8px 0px 4px 0px;
+}
+.tz-link h3 .icon-tz-link{
+    background: url("../images/icon-link.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    height: 16px;
+    margin: 0;
+    padding: 8px 0 0 14px;
+    width: 20px;
+}
+.tz-link h3 a{
+    font-family: 'OpenSansRegular';
+    font-size: 32px;
+    line-height: 30px;
+    color: #282828;
+    display: inline-block;
+    float: left;
+}
+.tz-link h3 a:hover{
+   text-decoration: none;
+    cursor: pointer;
+}
+.tzlink_des p{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'OpenSansRegular';
+    color: #5c5c5c;
+}
+/*END CSS LINK*/
+/*css heading*/
+.blog-content-heading:first-child{
+    border-top: 0;
+    padding-top: 0;
+}
+.blog-content-heading{
+    padding-top: 50px;
+    padding-bottom: 22px;
+    border-top: 1px solid rgb(233,233,233);
+}
+.blog-content-heading img{
+    width: 100%;
+}
+.blog-content-heading .blog-title{
+    margin: 27px 0 0 0;
+    padding: 0;
+    font-family: 'OpenSansBold';
+    font-size: 30px;
+    line-height: 36px;
+    color: #282828;
+    text-transform: uppercase;
+}
+.blog-content-heading .blog-title a{
+    color: #282828;
+}
+.blog-content-heading .blog-title a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.blog-content-heading .blog-info{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansItalic';
+
+
+}
+.blog-content-heading .blog-info span{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 36px;
+    color: #6a6a6a;
+    display: inline-block;
+    font-style: italic;
+}
+.blog-content-heading .blog-info span a{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 36px;
+    color: #282828;
+    display: inline-block;
+    font-style: italic;
+
+}
+.blog-content-heading .blog-info span i{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 36px;
+    color: #282828;
+    display: inline-block;
+    font-style: italic;
+}
+.blog-content-heading .blog-description{
+    margin: 9px 0 0 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.blog-content-heading .blog-description p{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 24px;
+}
+.blog-content-heading .blog-tags{
+    margin: 13px 0 0 0;
+    padding: 0;
+    font-family: 'OpenSansItalic';
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.blog-content-heading .blog-tags a{
+    padding: 0px 0px 0px 15px;
+    font-family: 'OpenSansItalic';
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 24px;
+
+    margin: 0;
+    display: inline-block;
+}
+.resume_fluid_Content{
+    padding: 50px 0px 48px;
+
+}
+.resume_fluid_Content h5{
+    color: #282828;
+    font-family: ralewayregular;
+    font-weight: normal;
+}
+.resume_fluid_Content p{
+
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'OpenSansRegular';
+    color: #6a6a6a;
+    margin: 0;
+    padding: 0;
+
+}
+/*end heading*/
+.blog-content-item:first-child{
+    border-top: 0;
+    padding-top: 0;
+}
+.blog-content-item{
+    padding-top: 35px;
+    padding-bottom: 22px;
+    border-top: 1px solid rgb(233,233,233);
+}
+.blog-content-item .tz-blog-images{
+    float: left;
+    max-width: 260px;
+    overflow: hidden;
+    margin: 10px 30px 16px 0px ;
+}
+.blog-content-item .tz-blog-images img{
+    width: 100%;
+}
+.blog-content-item .blog-title{
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+    font-family: 'OpenSansBold';
+    font-size: 24px;
+    line-height: 36px;
+    color: #282828;
+    text-transform: uppercase;
+}
+.blog-content-item .blog-title a{
+    color: #282828;
+}
+.blog-content-item .blog-title a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.blog-content-item .blog-info{
+    margin: 12px 0 0 0;
+    padding: 0;
+    font-family: 'OpenSansItalic';
+
+
+}
+.blog-content-item .blog-info span{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    line-height: 24px;
+    color: #6a6a6a;
+    display: inline-block;
+}
+.blog-content-item .blog-info span a{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    line-height: 24px;
+    color: #282828;
+    display: inline-block;
+}
+.blog-content-item .blog-info span i{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 36px;
+    color: #282828;
+    display: inline-block;
+}
+.blog-content-item .blog-description p{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansRegular';
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 24px;
+}
+.blog-content-item .blog-tags{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-family: 'OpenSansItalic';
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.blog-content-item .blog-tags a{
+    padding: 0px 0px 0px 15px;
+    font-family: 'OpenSansItalic';
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    display: inline-block;
+}
+
+/*css pagination*/
+.TzPagination{
+    margin-top: 28px;
+    text-align: center;
+    width: 100%;
+}
+.TzPagination .wp-pagenavi span{
+    padding: 1px 15px;
+    border: 2px solid rgb(40,40,40);
+    font-family: 'OpenSansBold';
+    color: #282828;
+    font-size: 14px;
+    line-height: 34px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 0;
+    display: inline-block;
+    margin: 0px 0px 0px 6px;
+}
+.TzPagination .wp-pagenavi a{
+    padding: 1px 15px;
+    border: 2px solid rgb(40,40,40);
+    font-family: 'OpenSansBold';
+    color: #282828;
+    font-size: 14px;
+    line-height: 34px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 0px 0px 0px 6px;
+    display: inline-block;
+}
+.TzPagination .wp-pagenavi .current{
+    background: #282828;
+    color: white;
+}
+.TzPagination .wp-pagenavi a:hover,
+.TzPagination .wp-pagenavi span:hover{
+    text-decoration: none;
+    background: #282828;
+    color: white;
+    cursor: pointer;
+}
+/*End blog content*/
+/*==========================
+* CSS AUTHOR
+===========================*/
+/*single-author*/
+.tzuser-author{
+    margin: -5px 0 50px;
+}
+.tzuser-author-info{
+    width: 70%;
+    float: left;
+}
+.tzuser-author-info h1{
+    font-family: 'OpenSansBold';
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    color: #282828;
+}
+.tzuser-author-info p.tzuser-description{
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    padding: 18px 0px;
+    color: #6a6a6a;
+}
+.tzuser-author-info p.tzuser-social{
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    padding: 5px 0px 0px;
+    color: #6a6a6a;
+}
+.tzuser-author-info p.tzuser-social a:hover{
+    color: #009900;
+    cursor: pointer;
+    text-decoration: none;
+}
+.tzuser-author-info p.tzuser-social a:first-child{
+    margin-left: 0;
+}
+.tzuser-author-info p.tzuser-social a{
+    display: inline-block;
+    color: #282828;
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 15px;
+}
+.tzuser-author-img {
+    float: left;
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.tzuser-author-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+/*End css Author*/
+
+/*==========================
+CSS SEARCH
+============================*/
+.tz-notdata p{
+    font-family: 'OpenSansBold';
+    font-size: 18px;
+    color: red;
+
+}
+.tz-notdata a{
+    color: #6a6a6a;
+    font-family: 'OpenSansBold';
+    font-size: 14px;
+}
+/*End Search*/
+/*CSS ARCHIVE*/
+.tzblog-content h1.tzarchive{
+    color: #282828;
+    font-family: 'OpenSansBold';
+    font-size: 48px;
+    line-height: 36px;
+    margin: 0 0 42px;
+    padding: 0  0 21px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #E9E9E9;
+}
+.tzblog-content h1 span{
+    color: #282828;
+    display: block;
+    font-family: 'OpenSansBold';
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 40px;
+}
+

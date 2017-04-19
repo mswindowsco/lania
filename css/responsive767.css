@@ -1,0 +1,442 @@
+
+/*==========================================
+ Landscape phone to portrait tablet
+ ===========================================*/
+@media (max-width: 767px) {
+
+#blaymm {
+    width:100% !important;
+}
+
+#phoneo {
+        display:none;
+    }
+
+.small-hide {
+    display:none;
+}
+
+    .index-video {
+        display: none;
+        width: 1px;
+        height: 1px;
+    }
+
+    h1{
+        color: #515050;
+        font-family: 'OpenSansBold';
+        font-size: 42px;
+    }
+    h2{
+        color: #515050;
+        font-family: 'OpenSansBold';
+        font-size: 35px;
+    }
+    h3{
+        color: #515050;
+        font-family: 'OpenSansBold';
+        font-size: 25px;
+    }
+    h4{
+        color: #515050;
+        font-family: 'OpenSansBold';
+        font-size: 19px;
+    }
+    h5{
+        color: #515050;
+        font-family: 'OpenSansBold';
+        font-size: 14px;
+    }
+    h6{
+        color: #515050;
+        font-family: 'OpenSansRegular';
+        font-size: 14px;
+    }
+
+    body{
+        padding: 0;
+    }
+    /*blog*/
+    .tzuser-author-img img{
+        display: none;
+    }
+    /*page*/
+    div.tz-page-wrap{
+        padding: 0 30px;
+    }
+    div.tzpage h1.page_title{
+        font-size: 40px;
+    }
+    /* CSS HEADER*/
+    /*menu*/
+    #tzheader div#plazart-menu .nav li a{
+        padding: 10px 40px;
+    }
+    .tzsocial{
+        display: none !important;
+    }
+    .row-fluid div.tzlogo{
+        min-height: 0;
+    }
+    .navbar-inner .btn-navbar{
+        display: block !important;
+        position: absolute;
+        right: 30px;
+        top: 28px;
+        background: none;
+        border: medium none;
+        box-shadow: none;
+    }
+    .row-fluid div.tzmenu{
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+        margin: 0 !important;
+        min-height: 0;
+        padding: 0 !important;
+        z-index: 9999;
+    }
+    #plazart-menu{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    div#plazart-menu ul.nav{
+        width: 100%;
+        float: left;
+        background: white;
+        border-top: 1px solid #E9E9E9;
+        padding-top: 10px;
+    }
+    div#plazart-menu ul.nav li{
+        float: none;
+
+        padding-right: 0;
+    }
+    div#plazart-menu ul.nav li:hover{
+        background: #E9E9E9;
+    }
+    div#plazart-menu ul.nav li a{
+        font-size: 14px;
+        padding-left: 38px;
+    }
+    /*css tzabout*/
+    div.tzaboutcontent{
+        padding: 0 30px;
+    }
+    div.tzaboutcontent h1{
+        line-height: 40px;
+        font-size: 20px !important;
+    }
+
+    .tzaboutweb_fluid {
+        padding: 38px 30px !important;
+    }
+    div.pageForm {
+        float: left;
+        padding-left: 0;
+        padding-top: 11px;
+    }
+    p.newletter-info{
+        padding-bottom: 18px;
+    }
+    /*module header*/
+    div.resume_fluid{
+        padding: 0 30px;
+    }
+    /*module page*/
+    div.tzaboutweb_fluid p.resume_info{
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        padding: 0 0 25px;
+    }
+    div.tzaboutweb_fluid a.tzbutton{
+        float: none;
+        margin-top: 0;
+        padding: 6px 12px;
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    /*module servie*/
+    div.tz-server-detail:first-child{
+        margin-top: 0;
+    }
+    div.tz-server-detail{
+        margin-top: 20px;
+    }
+    /*css ourclient*/
+    div.clientcontent {
+
+        padding: 65px 30px 82px;
+    }
+
+    div.tzourclients h3{
+        line-height: 24px;
+        font-size: 20px !important;
+    }
+    div.ourclientscontent .itemclient img{
+        height: 100px;
+        max-width: 170px;
+    }
+    div.itemclient{
+        margin-top: 45px;
+    }
+    div.itemclient:first-child{
+        margin-top: 0;
+    }
+    /*=====quote=======*/
+    div.tzinfo{
+        padding: 0px 30px;
+    }
+    /*======event========*/
+    div.tzevent_full{
+        padding: 28px 30px 37px;
+    }
+    .tzevent_full .ul_event{
+        float: left;
+    }
+    /*company*/
+    div.employee {
+        overflow: hidden;
+        padding: 45px 30px 92px;
+    }
+    div.tzcompanycontent h3{
+        padding: 55px 0 0;
+    }
+    .tzcompany .employee_company{
+        padding: 18px 30px 30px;
+    }
+    .tzcompany .tzcompanycontent {
+        padding: 0 30px;
+        text-align: center;
+    }
+    .tzcompany #showbiz_left_1,
+    .tzcompany #showbiz_right_1{
+        display: none;
+    }
+    /*===========portfolio=====*/
+    .resume_fluid .resume_fluid_Content .tzbutton{
+        margin-top: 20px;
+    }
+    div.content-portfolio{
+        padding: 58px 30px 74px;
+    }
+    h3.title-portfolio{
+        padding: 63px 30px 35px;
+        font-size: 40px;
+    }
+    div#filter {
+        margin-bottom: 47px;
+        padding: 0 30px;
+    }
+    div#TzContent {
+        padding: 0 40px 0 0;
+    }
+    div#filter a{
+        margin: 10px 12px 0px 0px;
+    }
+    div#filter a:first-child{
+        margin: 10px 12px 0px 0px;
+    }
+    div#tz_append {
+        margin-left: 40px;
+        margin-top: 12px;
+        text-align: center;
+    }
+    div#tz_append a,
+    div#tz_append span{
+        font-size: 13px !important;
+        padding: 11px 13px !important;
+    }
+
+    /*single portfolio*/
+    div.portfolio-single{
+        padding: 0 30px;
+    }
+    div.portfolio-single h1{
+        font-size: 35px;
+        padding: 30px 0px;
+    }
+    div.tz_portfolio_image_gallery{
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .portfolio-single-info{
+        margin-top: 15px;
+    }
+
+
+    /*css footer*/
+    div.footerSocial ul li a.socialname{
+        padding-left: 0;
+    }
+    div.tzcopyright p{
+        width: 90%;
+    }
+    .tzfooter .span2:first-child{
+        margin-top: 0;
+    }
+    .tzfooter .span2{
+        margin-top: 20px;
+    }
+    .tzfooter .span4:first-child{
+        margin-top: 0px;
+    }
+    .tzfooter .span4{
+        margin-top: 20px;
+    }
+    /* menu*/
+    body #plazart-menu ul li ul{
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #E1E5E7;
+        list-style: none outside none;
+        margin: 0;
+        padding: 27px 0 28px;
+        position: relative;
+        top: 0;
+        width: auto;
+        z-index: 99999;
+    }
+    body #plazart-menu ul.nav li ul li a{
+        border-top: 0;
+    }
+    body div#plazart-menu ul.nav li:hover{
+        background: none;
+    }
+    /*lve 3*/
+    body #plazart-menu ul li ul.sub-menu li ul{
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #E1E5E7;
+        left: 0;
+        list-style: none outside none;
+        margin: 0;
+        padding: 27px 0 28px;
+        position: relative;
+        top: 0;
+        width: auto;
+        z-index: 99999;
+    }
+    /*blog*/
+    div.tzblog-content h1.tzarchive2{
+        font-size: 40px;
+        padding: 0 0 8px;
+    }
+    div.blog-content-date h3.archive-date{
+        font-size: 25px;
+    }
+    .blog-content-item div.tz-quote p{
+        font-size: 18px;
+    }
+    div.tz-link h3 a{
+        font-size: 24px;
+    }
+    div.blogcontent{
+        padding: 60px 30px 75px 30px;
+    }
+    div.tzblog-content{
+        padding: 40px 0 50px;
+    }
+    div.tz-blog-wrap{
+        padding: 0 30px;
+    }
+    div.tzblog-content h1{
+        font-size: 40px;
+        margin: 0 0 30px;
+    }
+    div.tzblog-sidebar{
+        padding: 30px 0px 80px 0px;
+    }
+    ul.tab-content-blog li .module-blog-img{
+        height: auto;
+        margin-bottom: 13px;
+        max-height: 350px;
+        width: 100%;
+    }
+    /*service*/
+    div.ourclientscontent{
+       padding: 35px 30px 60px;
+    }
+    /*========bread=======*/
+    div.tzbread{
+        padding: 18px 30px 18px 30px;
+
+    }
+    .row-fluid .tzbread-attr{
+        display: none;
+    }
+    div.tzbreadsocial{
+        text-align: center;
+    }
+    div.tzbreadsocial ul li a{
+        margin-left: 0;
+        margin-right: 16px;
+    }
+
+    .resume_fluid_Content h5{
+        line-height: 32px;
+    }
+    /*footer*/
+    div.footer-fluid{
+       padding: 25px 30px 30px;
+    }
+    /*header*/
+    h3.resume_title{
+        line-height: 30px !important;
+        font-size: 20px;
+    }
+    div.resume_fluid_Content h5{
+        font-size: 25px;
+    }
+
+
+    div.resume_fluid a.tzbutton{
+        float: left;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    div.one_half{
+        width: 100%;
+    }
+    div.one_third{
+        width: 100%;
+    }
+    div.two_third{
+        width: 100%;
+    }
+    div.one_fourth{
+        width: 100%;
+    }
+    div.two_fourth{
+        width: 100%;
+    }
+    div.three_fourth{
+        width: 100%;
+    }
+    /*slide*/
+
+    body section#tzslideshow div.div-home-slide .tp-caption.tz_header_slide ,
+    body section#tzslideshow div.div-home-slide .tp-caption.tz_header_slide2
+    {
+        font-size: 18px !important;
+    }
+
+    p{
+        font-family: 'OpenSansRegular';
+        font-size: 14px;
+        line-height: 24px;
+        color: #5c5c5c;
+    }
+
+    /*sidebar*/
+    div.tzblog-sidebar #searchform label.icon-search{
+        display: none;
+    }
+    div.tzblog-sidebar aside ul li .tz-fearture-img{
+        max-height: 300px;
+    }
+
+}
+/* END Landscape phone to portrait tablet */
+
+
+
+

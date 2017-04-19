@@ -1,0 +1,3 @@
+11.12.2013
+Version 1.1
+- Update option full width

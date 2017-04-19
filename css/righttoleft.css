@@ -1,0 +1,207 @@
+/*logo*/
+/*======================================
+Large desktop
+=======================================*/
+
+@media (min-width: 1200px) {
+
+    /*heade*/
+    #tzheader div.tzlogo{
+        float: right;
+    }
+    div.tzlogo h3{
+        margin: 34px 0;
+    }
+    #tzheader div#plazart-menu .nav li{
+        float: right;
+    }
+    #tzheader div#plazart-menu .nav li ul li{
+        float: none;
+    }
+    #tzheader #plazart-menu ul.nav li ul li a{
+        text-align: right;
+    }
+
+    ul.cb-slideshow li div.tz-slideshow-content{
+        text-align: right;
+    }
+    div.tzinfo p.p-quote{
+        text-align: right;
+    }
+    /*===============blog==================*/
+    ul#tzmyTab li{
+        float: right;
+    }
+    .blogtab ul#tzmyTab li.tzpopular{
+        padding-right: 48px;
+    }
+    ul.tab-content-blog li .module-blog-img{
+        float: right;
+        padding-left: 45px;
+        padding-right: 0;
+    }
+    div.tab-blog-info{
+
+        text-align: right;
+    }
+    /*===============footer==================*/
+    .footer-fluid{
+        text-align: right;
+    }
+
+    /*=============page blog=================*/
+    div.tzblog-content{
+        text-align: right;
+    }
+    div.blog-content-item .tz-blog-images{
+        float: right;
+        margin: 10px 0px 16px 30px;
+    }
+    /*=============page and pages*/
+    div.tz-page-wrap{
+        text-align: right;
+    }
+
+    /*==============page single protfolio========*/
+    h3.title-portfolio{
+        text-align: right;
+    }
+    div#filter a:first-child{
+        margin: 0 0 0 12px;
+    }
+    div#filter a{
+        float: right;
+        margin: 0 0 0 12px;
+    }
+    div.portfolio-single h1{
+        text-align: right;
+    }
+    div.tz_portfolio_image_gallery{
+        float: right;
+        margin: 0 0px 0 40px;
+    }
+    div.portfolio-single-image{
+        float: right;
+        margin: 0 0px 0 40px;
+    }
+    div.portfolio-single-info{
+        float: right;
+    }
+    div.portfolio-single-info ul li{
+        text-align: right;
+    }
+    div.single-description p{
+        text-align: right;
+    }
+    div.share-it .TwitterButton,
+    div.share-it .FacebookButton,
+    div.share-it .PinterestButton,
+    div.share-it .GooglePlusOneButton{
+        float: right;
+    }
+
+    /*==============Shortcode=================*/
+    div.one_half{
+        text-align: right;
+    }
+    div.one_third{
+        text-align: right;
+    }
+    div.two_third{
+        text-align: right;
+    }
+    div.one_fourth{
+        text-align: right;
+    }
+    div.two_fourth{
+        text-align: right;
+    }
+    div.three_fourth{
+        text-align: right;
+    }
+    ul.plazart-list li{
+        padding-left: 0px;
+        padding-right: 23px;
+        text-align: right;
+        background-position: right center;
+    }
+    body p.tzskill_info{
+        float: right;
+    }
+    .tzskill .tzpageicon{
+        float: right;
+    }
+    body div.tz_news .tz_accordion h3.open{
+        background-position: right 23px !important;
+    }
+    body div.tz_news .tz_accordion h3.tz_title{
+        padding: 18px 30px 15px 15px;
+       background: url("../images/bg-accordion.png") no-repeat scroll right -32px rgba(0, 0, 0, 0);;
+    }
+    body ul#Shortcode_myTab > li{
+        float: right;
+    }
+
+    /*====================Author================*/
+
+    div.single-author-img {
+        float: right;
+        margin-left: 0px;
+        margin-right: 50px;
+        margin-top: 15px;
+    }
+
+    /*======================comment===============*/
+    .tz_comment p.comment-form-author input#author, .tz_comment p.comment-form-email input#email{
+        text-align: right;
+    }
+    input, textarea, .uneditable-input{
+        text-align: right;
+    }
+    .tz_comment ol.commentlist li article.comment section.comment{
+        padding-left: 0;
+        padding-right: 14%;
+    }
+    .tz_comment ol.commentlist li article header{
+        float: right;
+    }
+    .tz_comment ol.commentlist li .comment-awaiting-moderation{
+        padding: 0 14% 0 0 !important;
+        margin: 0;
+    }
+    /*======================slidebar==============*/
+    .tzblog-sidebar aside{
+        text-align: right;
+    }
+
+    aside input.search-query {
+        border-radius: 15px;
+        margin-bottom: 0;
+        padding-left: 5px;
+        padding-right: 33px;
+    }
+    div.tzblog-sidebar #searchform{
+        width: auto;
+    }
+}
+
+/*======================================
+Portrait tablet to landscape and desktop
+=======================================*/
+@media (min-width: 768px) and (max-width: 979px) {
+    /*header*/
+
+    #tzheader div#plazart-menu .nav li ul li{
+        float: none;
+    }
+    #tzheader div#plazart-menu .nav li a{
+        text-align: right;
+    }
+
+    ul.cb-slideshow li div.tz-slideshow-content{
+        text-align: right;
+    }
+    div.tzinfo p.p-quote{
+        text-align: right;
+    }
+}

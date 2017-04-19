@@ -1,0 +1,159 @@
+/*==========================
+SIDEBAR
+===========================*/
+.tzblog-sidebar{
+    padding: 48px 0 80px 30px;
+    overflow: hidden;
+}
+.tzblog-sidebar aside{
+    margin-bottom: 38px;
+}
+.tzblog-sidebar aside h3.module-title{
+    margin: 0px 0px 15px 0px;
+    padding: 0;
+}
+.tzblog-sidebar aside h3.module-title span{
+    font-size: 24px;
+    font-family: 'OpenSansBold';
+    line-height: 31px;
+    color: #282828;
+    text-transform: uppercase;
+
+}
+.tzblog-sidebar aside ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tzblog-sidebar aside a:hover{
+    text-decoration: none;
+}
+.tzblog-sidebar aside ul li:first-child{
+    margin: 0;
+}
+.tzblog-sidebar aside ul li{
+    margin: 0;
+    padding: 0;
+}
+.tzblog-sidebar aside ul li .tz-fearture-img:first-child{
+    margin-top: 24px;
+}
+.tzblog-sidebar aside ul li .tz-fearture-img{
+    width: 100%;
+    max-height: 195px;
+    overflow: hidden;
+    position: relative;
+
+}
+.tzblog-sidebar aside ul li .tz-fearture-img image{
+    min-height: 100%;
+}
+.tzblog-sidebar aside ul li a{
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 40px;
+    color: #282828;
+    text-transform: uppercase;
+}
+.tzblog-sidebar aside.widget_recent_entries ul li a{
+    font-family: 'OpenSansRegular';
+    font-size: 14px;
+    line-height: 40px;
+    color: #282828;
+    text-transform: none;
+}
+
+.fearture-item h6{
+    line-height: 21px;
+    font-size: 18px;
+    font-family: 'OpenSansBold';
+    color: #282828;
+    margin: 0;
+    padding: 20px 0px 14px 0px ;
+}
+.tzblog-sidebar aside .fearture-item h6 a{
+    font-family: 'OpenSansBold';
+    color: #282828;
+    text-transform: none;
+    line-height: 21px;
+    font-size: 18px;
+    margin: 0;
+}
+.fearture-item h6 a:hover{
+    text-decoration: none;
+}
+.fearture-item p{
+    margin: 0;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'OpenSansRegular';
+    color: #5c5c5c;
+}
+
+.tweet-item:first-child{
+    padding:0;
+    margin: 0;
+}
+.tweet-item{
+    padding: 22px 0 0;
+    margin: 0;
+}
+.twitter-user a{
+    color: #009900;
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    line-height: 21px;
+}
+.tweet-content{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'OpenSansRegular';
+    line-height: 21px;
+    color: #282828;
+}
+.tweet-content a{
+    color: #009900;
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    line-height: 21px;
+}
+.tzblog-sidebar #searchform label.assistive-text,
+.tzblog-sidebar #searchform #searchsubmit{
+    display: none;
+}
+.tzblog-sidebar #searchform{
+    position: relative;
+    width: 68%;
+    margin-top: 25px;
+}
+.tzblog-sidebar input.search-query{
+    width: 87%;
+}
+.tzblog-sidebar #searchform label.icon-search{
+    position: absolute;
+    right: 8%;
+    top: 19%;
+}
+.textwidget{
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'OpenSansRegular';
+    color: #5c5c5c;
+}
+.tzblog-sidebar aside.widget_facebookwidget h3.module-title{
+    margin-bottom: 25px;
+}
+.widget_calendar table{
+    width: 100%;
+}
+.widget_calendar table caption{
+    margin-bottom: 10px;
+}
+.widget_categories select{
+    margin-top: 11px;
+    width: 90%;
+}
+/*end blog sidebar*/
