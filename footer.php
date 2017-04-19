@@ -44,7 +44,6 @@
 </footer><!--end class container-fluid-->
 <?php wp_footer(); ?>
 <script type='text/javascript' src='http://mswindows.co/wp-content/themes/lania/js/jquery.fancybox.pack.js?ver=3.8.1'></script>
-<p>Max</p>
 </body>
 
 </html>
